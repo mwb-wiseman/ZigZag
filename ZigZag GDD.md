@@ -1,3 +1,5 @@
+![[ZigZag MenuArt.png]]
+
 # ZigZag Clone
 
 ## Introduction
@@ -6,7 +8,7 @@ This document outlines the plan for the development of a ZigZag clone. This proj
 
 __Key New Features__
 
-- Bare-bones setting and narrative to provide context in which the game can sit.
+- Aesthetic theme suggests a narrative; provides marketing opportunity and appeal to sci-fi consumer demographics.
 - Difficulty settings to provide a customisable experience.
 
 __Key Learning Objectives__
@@ -14,6 +16,7 @@ __Key Learning Objectives__
 - Character animation
 - Procedurally generated level design
 - Global data maintained over multiple scenes (sound volume, high score)
+- Build for Android
 
 ***
 
@@ -73,7 +76,7 @@ Single player.
 
 #### Technical Aspects
 
-Game to be built in Unity for Android and Windows PC, with potential for further iOS build.
+Game to be built in Unity for Android.
 
 ***
 
@@ -108,6 +111,7 @@ A big name in the endless-runner genre is Temple Run. Similarly to the original 
 7. Procedural level generation
 8. Audio; graphic design of menus
 9. Play-test/Code review
+10. Re-factor based on feedback
 
 #### Resources
 
@@ -116,16 +120,17 @@ Unity (Personal)
 
 #### Schedule
 
-| Time | Objective | Date completed |
-| --- | --- | --- |
-| Day 1 | Milestone 1 | 04/03/22 |
-| Day 2 | Milestone 2 | 07/03/22 |
-| Day 3 | Milestone 3 | 08/03/22 |
-| Day 4 | Milestone 4 | 09/03/22 |
-| Day 5 | Milestone 5 | 10/03/22 |
-| Day 6 | Milestone 6 |  |
-| Day 7 | Milestone 7 |  |
-| Day 8 | Milestone 8 |  |
-| Day 9 | Milestone 9 |  |
-| Day 10 | “ |  |
+| Time | Objective |
+| --- | --- |
+| Day 1 | Milestone 1 |
+| Day 2 | Milestone 2 |
+| Day 3 | Milestone 3 |
+| Day 4 | Milestone 4 |
+| Day 5 | Milestone 5 |
+| Day 6 | Milestone 6 |
+| Day 7 | Milestone 7 |
+| Day 8 | Milestone 8 |
+| Day 9 | Milestone 9 |
+| Day 10 | “ |
+| Day 11 | Milestone 10 |
 
