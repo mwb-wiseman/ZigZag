@@ -1,4 +1,4 @@
-![[ZigZag MenuArt.png]]
+![[GDD Images/ZigZag MenuArt.png]]
 
 # ZigZag Clone
 
@@ -30,7 +30,7 @@ ZigZag is a 3D, single-player endless running game in which the player runs left
 
 The player controls a spaceman constantly running along a gantry to collect as many supplies as possible before they fall off.
 
-![[ZigZag Art 1.png]]
+![[GDD Images/ZigZag Art 1.png]]
 
 Using a single input, the player toggles between running diagonally left and right to follow the path. The player accumulates points by running through items spaced out along the gantry at irregular intervals. The level is procedurally generated so there is no win condition. When they fall off the gantry the player loses, and they can tap to restart.
 
@@ -58,7 +58,7 @@ Tapping/clicking the cog icon in the top right of the screen opens a semi-transp
 
 __Gameflow__
 
-![[ZigZag Gameflow.png]]
+![[GDD Images/ZigZag Gameflow.png]]
 
 __Victory Conditions__
 
@@ -70,9 +70,9 @@ Single player.
 
 #### Art
 
-![[ZigZag Art 2.png]]
+![[GDD Images/ZigZag Art 2.png]]
 
-![[ZigZag Art 3.png]]
+![[GDD Images/ZigZag Art 3.png]]
 
 #### Technical Aspects
 
