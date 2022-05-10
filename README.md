@@ -15,7 +15,7 @@ __Key Learning Objectives__
 
 - Character animation
 - Procedurally generated level design
-- Global data maintained over multiple scenes (sound volume, high score)
+- Stored user settings data (e.g. sound volume, high score)
 - Build for Android
 
 ***
@@ -32,7 +32,7 @@ The player controls a spaceman constantly running along a gantry to collect as m
 
 ![ZigZag Art 1.png](https://github.com/mwb-wiseman/ZigZag/blob/main/GDD%20Images/ZigZag%20Art%201.png)
 
-Using a single input, the player toggles between running diagonally left and right to follow the path. The player accumulates points by running through items spaced out along the gantry at irregular intervals. The level is procedurally generated so there is no win condition. When they fall off the gantry the player loses, and they can tap to restart.
+Using a single input, the player toggles between running diagonally left and right to follow the path. The player accumulates points by running through items spaced out along the gantry at irregular intervals. The level is procedurally generated so there is no final win condition. When they fall off the gantry the player loses, and they can tap to restart.
 
 __Key Features__
 
