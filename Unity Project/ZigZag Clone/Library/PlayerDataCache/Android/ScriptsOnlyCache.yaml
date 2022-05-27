@@ -200,15 +200,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3256}
     - Class: 114
-      Script: {instanceID: 16678}
+      Script: {instanceID: 26074}
     - Class: 114
-      Script: {instanceID: 16688}
+      Script: {instanceID: 26084}
     - Class: 114
-      Script: {instanceID: 16690}
+      Script: {instanceID: 26086}
     - Class: 114
-      Script: {instanceID: 16692}
+      Script: {instanceID: 26088}
     - Class: 114
-      Script: {instanceID: 16694}
+      Script: {instanceID: 26090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -716,4 +716,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: D:/Ganlang's Games/ZigZag/ZigZag 1.0.-/ZigZag Clone 1.0.0.apk
+  playerPath: D:/Ganlang's Games/ZigZag/ZigZag 1.0.-/ZigZag Clone 1.0.1.apk

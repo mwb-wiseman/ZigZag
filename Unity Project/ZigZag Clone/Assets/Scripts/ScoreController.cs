@@ -22,14 +22,45 @@ public class ScoreController : MonoBehaviour
 
         if(currentScore > GetHighScore())
         {
-            PlayerPrefs.SetInt("Highscore", currentScore);
+            switch (PlayerPrefs.GetFloat("Difficulty"))
+            {
+                case 0.75f:
+                    PlayerPrefs.SetInt("CakewalkScore", currentScore);
+                    break;
+                case 1f:
+                    PlayerPrefs.SetInt("SpacewalkScore", currentScore);
+                    break;
+                case 1.5f:
+                    PlayerPrefs.SetInt("Death_MarchScore", currentScore);
+                    break;
+                default:
+                    break;
+            }
             highScoreText.text = currentScore.ToString();
         }
     }
 
     public int GetHighScore()
     {
-        int i = PlayerPrefs.GetInt("Highscore");
+        int i;
+
+        switch (PlayerPrefs.GetFloat("Difficulty"))
+        {
+            case 0.75f:
+                i = PlayerPrefs.GetInt("CakewalkScore");
+                break;
+            case 1f:
+                i = PlayerPrefs.GetInt("SpacewalkScore");
+                
+                break;
+            case 1.5f:
+                i = PlayerPrefs.GetInt("Death_MarchScore");
+                break;
+            default:
+                i = 0;
+                break;
+        }
+
         return i;
     }
 }
